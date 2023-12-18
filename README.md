@@ -26,7 +26,8 @@ This project is a Java-based application that uses the A* algorithm to determine
 3. **Enter Location IDs:** Input the start and end location IDs as prompted.
 4. **Debugging Option:** Choose to view debugging information during execution.
 5. **Result Display:** The program outputs the fastest route, number of nodes visited, and total travel time.
-
+For an example run click below OR click on the Example_Run.txt file in the repository:
+[Download Example_Run.txt](https://github.com/Nick-Jacko/A-Star-Algorithm-GPS-Navigation/blob/main/Example_Run.txt)
 
 ## Description of the Code
 
