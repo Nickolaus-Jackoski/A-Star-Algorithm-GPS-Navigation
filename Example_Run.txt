@@ -1,0 +1,37 @@
+Enter starting location ID: 2471207719
+Enter ending location ID: 203785186
+How many times are you allowed to speed? 1
+Do you want debugging information (y/n)? y
+
+Visiting [State=(2471207719, 1), parent=null, speeding=null, g=0.0, h=4.290219998510904, f=4.290219998510904]
+    Adding [State=(203821515, 1), parent=2471207719, speeding=false, g=0.275876630947415, h=4.290443434162652, f=4.566320065110068] to frontier.
+    Adding [State=(203821515, 0), parent=2471207719, speeding=true, g=0.1379383154737075, h=8.580886868325305, f=8.718825183799012] to frontier.
+    Adding [State=(203874746, 1), parent=2471207719, speeding=false, g=7.259084394738278, h=4.722357633315258, f=11.981442028053536] to frontier.
+    Adding [State=(203874746, 0), parent=2471207719, speeding=true, g=3.629542197369139, h=9.444715266630515, f=13.074257463999654] to frontier.
+
+Visiting [State=(203821515, 1), parent=2471207719, speeding=false, g=0.275876630947415, h=4.290443434162652, f=4.566320065110068]
+    Skipping [State=(2471207719, 1), parent=203821515, speeding=false, g=0.55175326189483, h=4.290219998510904, f=4.841973260405734] (already on frontier with lower cost).
+    Adding [State=(2471207719, 0), parent=203821515, speeding=true, g=0.4138149464211225, h=8.580439997021807, f=8.99425494344293] to frontier.
+    Adding [State=(203785186, 1), parent=203821515, speeding=false, g=22.58618248859321, h=0.0, f=22.58618248859321] to frontier.
+    Adding [State=(203785186, 0), parent=203821515, speeding=true, g=11.431029559770312, h=0.0, f=11.431029559770312] to frontier.
+    Adding [State=(203874118, 1), parent=203821515, speeding=false, g=7.629064324181639, h=4.713872299813249, f=12.342936623994888] to frontier.
+    Adding [State=(203874118, 0), parent=203821515, speeding=true, g=3.9524704775645274, h=9.427744599626498, f=13.380215077191025] to frontier.
+
+Visiting [State=(203821515, 0), parent=2471207719, speeding=true, g=0.1379383154737075, h=8.580886868325305, f=8.718825183799012]
+    Skipping [State=(2471207719, 0), parent=203821515, speeding=false, g=0.4138149464211225, h=8.580439997021807, f=8.99425494344293] (already on frontier with lower cost).
+    Skipping [State=(203785186, 0), parent=203821515, speeding=false, g=22.4482441731195, h=0.0, f=22.4482441731195] (already on frontier with lower cost).
+    Skipping [State=(203874118, 0), parent=203821515, speeding=false, g=7.4911260087079325, h=9.427744599626498, f=16.91887060833443] (already on frontier with lower cost).
+
+Visiting [State=(2471207719, 0), parent=203821515, speeding=true, g=0.4138149464211225, h=8.580439997021807, f=8.99425494344293]
+    Skipping [State=(203821515, 0), parent=2471207719, speeding=false, g=0.6896915773685375, h=8.580886868325305, f=9.270578445693841] (already on frontier with lower cost).
+    Skipping [State=(203874746, 0), parent=2471207719, speeding=false, g=7.6728993411594, h=9.444715266630515, f=17.117614607789918] (already on frontier with lower cost).
+
+Visiting [State=(203785186, 0), parent=203821515, speeding=true, g=11.431029559770312, h=0.0, f=11.431029559770312]
+
+Total travel time in seconds: 11.431029559770312
+Number of nodes visited: 5
+
+Route found is:
+2471207719 (starting location)
+203821515 (University Street, not speeding)
+203785186 (Snowden Avenue, speeding)
