@@ -1,0 +1,2 @@
+# A Star Algorithm GPS Navigation
+  This project involves developing a program that utilizes the A* algorithm to determine the fastest driving route between two locations in Memphis. The core functionality revolves around calculating the most efficient path, given a map of Memphis, by taking into account the speed limits on each road segment. The program has two main functionalities: the basic A* algorithm implementation and an extended version that allows for speeding under certain conditions. The initial project provided by Dr. Phillip Kirlin (@pkirlin), completed by me.
